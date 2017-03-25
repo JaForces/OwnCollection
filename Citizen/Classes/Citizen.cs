@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Citizen
 {
-    abstract class Citizen
+    abstract class Citizen : ICitizen
     {
         private string firstname;
         private string lastname;
